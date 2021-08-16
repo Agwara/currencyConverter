@@ -1,0 +1,47 @@
+.header-container {
+  background-color: #0A146E;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__nav {
+  display: flex;
+  column-gap: 40px;
+  list-style: none;
+}
+
+.header__nav li p, .header__other p {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header__other {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.header__other button {
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+
+  transition-property: background-color, border-color;
+  transition-duration: 0.3s;
+  border: 2px solid rgb(0, 113, 235);
+  background: rgb(0, 113, 235);
+}
+
+.header__other button:hover {
+  box-shadow: rgb(20 30 55 / 70%) 0px 2px 4px 0px;
+  background: rgb(38, 151, 255);
+  border-color: rgb(38, 151, 255);
+}
